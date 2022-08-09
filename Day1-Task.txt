@@ -1,0 +1,50 @@
+HTTP:
+
+     HTTP stands for hypertext transfer protocol.
+     It is used in client-server communication.
+     simply says user sends the request to the server and the server sends the response to the user.
+
+
+DIFFERENCE BETWEEN HTTP1.1 VS HTTP2:
+
+
+          HTTP1.1                     HTTP2
+
+1.It works on the                It works on the 
+textual format.                  binary protocol.
+
+2.It compresses data             It uses HPACK for 
+ by itself.                      data compression.
+
+3.It uses requests               It uses PUSH frame 
+resource Inlining                by server that 
+for use getting                  collects all
+multiple pages.                  multiple pages.
+
+4.There is head of               It allows multiplexing
+line blocking that               so one TCP connection is 
+blocks all the                   required for
+requests behind it               multiple requests.
+until it doesn't
+get its all 
+resources.
+
+
+OBJECTS:
+
+     Objects are important data types in Javascript.
+     Objects are different than primitive datatypes,for example:number,string etc..
+     Primitive data types contain one value but objects can hold many values in form of key:value pair.
+     These keys can be variables or functions and are called properties and methods.
+     Every object has some property associated with some value.
+     
+Eg: var mybike=new Object();
+     mybike.make='suzuki';
+     mybike.year=2001;
+     mybike.wheels=2;
+
+     The value inside the Object can be accessed using keys.
+     i.e,
+           mybike.year
+          
+           output:2001
